@@ -1,0 +1,68 @@
+.big{
+    width: 100vw;
+    background-color: var(--white-color);
+    position: absolute;
+    top: 100%;
+    left: -908%;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    box-shadow: 0 3px 13px 0 rgb(0 0 0 / 3%);
+    z-index: 1;
+}
+
+.big-menu{
+    list-style: none;
+    width: 1300px;
+    margin: auto;
+    padding: 30px 40px;
+    z-index: 1;
+    display: flex;
+}
+
+.header__navbar-item:hover .big {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transition: clip-path 0.4s ease-out;
+}
+
+.big-menu-elements{
+    width: 25%;
+}
+
+.big-menu-list{
+    list-style: none;
+    padding: 32px;
+}
+
+.big-menu-link:hover .big-menu-text{
+    color: var(--primary-color);
+    transition: color 0.2s ease-out;
+}
+
+.big-menu-link:hover .big-menu-text::after{
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.big-menu-text{
+    font-size: 1.4rem;
+    line-height: 36px;
+    font-weight: 500;
+    color: var(--TEXT-color);
+    display: inline-block;
+    position: relative;
+}
+
+.big-menu-text::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 5px;
+    left: 0;
+    background-color: var(--TEXT-color);
+    transition: width 0.2s ease-out;
+}
+
+#first{
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}

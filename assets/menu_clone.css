@@ -1,0 +1,143 @@
+.menu__clone{
+    position: absolute;
+    min-width: 256px;
+    background-color: var(--white-color);
+    list-style: none;
+    top: 100%;
+    left: 0;
+    padding: 30px 0;
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    box-shadow: 0 3px 13px 0 rgb(0 0 0 / 3%);
+}
+
+.menu__clone-item{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    position: relative;
+}
+
+.menu__clone-item:hover .menu__chip{
+    opacity: 1;
+    transition: opacity 0.4s linear;
+}
+
+.menu__clone-link{
+    width: 100%;
+    height: 36px;
+    margin: 0;
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+}
+
+.menu__clone-link:hover .menu__clone-text{
+    color: var(--primary-color);
+    transition: color 0.2s ease-out;
+}
+
+.menu__clone-link:hover .menu__clone-text::after{
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.menu__clone-layble{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 28px;
+    height: 100%;
+}
+
+.menu__clone-text{
+    position: relative;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--TEXT-color);
+    line-height: 36px;
+    
+}
+
+.menu__clone-text::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 5px;
+    left: 0;
+    background-color: var(--TEXT-color);
+    transition: width 0.2s ease-out;
+}
+
+.menu__chip-icon{
+    font-size: 1.2rem;
+    display: inline-block;
+    color: var(--TEXT-color);
+}
+
+/*shop layouts*/
+
+.menu__chip{
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: -84%;
+    background-color: var(--white-color);
+    list-style: none;
+    margin: 0;
+    padding: 30px 0;
+    opacity: 0;
+    box-shadow: 0 3px 13px 0 rgb(0 0 0 / 3%);
+}
+
+.menu__chip-item{
+    width: 100%;
+    height: 36px;
+    display: flex;
+}
+
+.menu__chip-link{
+    display: flex;
+    text-decoration: none;
+}
+
+.menu__chip-link:hover .menu__chip-text{
+    color: var(--primary-color);
+    transition: color 0.2s ease-out;
+}
+
+.menu__chip-link:hover .menu__chip-text::after{
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.menu__chip-layble{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin: 0 28px;
+    height: 100%;
+}
+
+.menu__chip-text{
+    position: relative;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--TEXT-color);
+    line-height: 36px;
+}
+
+.menu__chip-text::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 5px;
+    left: 0;
+    background-color: var(--TEXT-color);
+    transition: width 0.2s ease-out;
+}
