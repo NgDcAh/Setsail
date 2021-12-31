@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./assets/base.css">
     <link rel="stylesheet" href="./assets/menu_clone.css">
     <link rel="stylesheet" href="./assets/header.css">
     <link rel="stylesheet" href="./assets/big_menu.css">
     <link rel="stylesheet" href="./assets/menu_tool.css">
     <link rel="stylesheet" href="./assets/slider.css">
+    <link rel="stylesheet" href="./assets/container__sports.css">
+    <link rel="stylesheet" href="./assets/container_review.css">
+    <link rel="stylesheet" href="./assets/container_describe.css">
+    <link rel="stylesheet" href="./assets/container_resort.css">
+    <link rel="stylesheet" href="./assets/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     <title>Document</title>
 </head>
+
 <body>
 
     <div class="headers">
@@ -33,7 +41,7 @@
                 <li class="header__navbar-item">
                     <a href="" class="header__navbar-item-link"><span id="home" class="header__navbar-text">Home</span></a>
 
-                    <ul class="menu__clone">
+                    <ul id="menu-home" class="menu__clone">
                         <li class="menu__clone-item">
                             <a href="" class="menu__clone-link">
                                 <div class="menu__clone-layble">
@@ -99,7 +107,7 @@
                         <span class="header__navbar-text">Pages</span>
                     </a>
 
-                    <ul class="menu__clone">
+                    <ul id="menu-pages" class="menu__clone">
                         <li class="menu__clone-item">
                             <a href="" class="menu__clone-link">
                                 <div class="menu__clone-layble">
@@ -143,14 +151,14 @@
                             </a>
                         </li>
                     </ul>
-     
+
                 </li>
 
                 <!--Destinations-->
                 <li class="header__navbar-item">
                     <a href="" class="header__navbar-item-link"><span class="header__navbar-text">Destinations</span></a>
 
-                    <ul class="menu__clone">
+                    <ul id="menu-desinations" class="menu__clone">
                         <li class="menu__clone-item">
                             <a href="" class="menu__clone-link">
                                 <div class="menu__clone-layble">
@@ -179,7 +187,7 @@
                 <li class="header__navbar-item">
                     <a href="" class="header__navbar-item-link"><span class="header__navbar-text">Tours</span></a>
 
-                    <ul class="menu__clone">
+                    <ul id="menu-tours" class="menu__clone">
                         <li class="menu__clone-item">
                             <a href="" class="menu__clone-link">
                                 <div class="menu__clone-layble">
@@ -215,7 +223,7 @@
                 <li class="header__navbar-item">
                     <a href="" class="header__navbar-item-link"><span class="header__navbar-text">Blog</span></a>
 
-                    <ul class="menu__clone">
+                    <ul id="menu-blog" class="menu__clone">
                         <li class="menu__clone-item">
                             <a href="" class="menu__clone-link">
                                 <div class="menu__clone-layble">
@@ -322,7 +330,7 @@
                 <li class="header__navbar-item">
                     <a href="" class="header__navbar-item-link"><span class="header__navbar-text">Shop</span></a>
 
-                    <ul class="menu__clone">
+                    <ul id="menu-shop" class="menu__clone">
                         <li class="menu__clone-item">
                             <a href="" class="menu__clone-link">
                                 <div class="menu__clone-layble">
@@ -409,227 +417,227 @@
                     <a href="" class="header__navbar-item-link">
                         <span class="header__navbar-text">Elements</span>
                     </a>
-                
-                <!--big menu-->
-                <div class="big">
-                <ul class="big-menu ">
 
-                    <!--big 1-->
-                    <li class="big-menu-elements">
-                        <ul class="big-menu-list">
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span id="first" class="big-menu-text">FEATURED</span>
-                                </a>
+                    <!--big menu-->
+                    <div class="big">
+                        <ul class="big-menu ">
+
+                            <!--big 1-->
+                            <li class="big-menu-elements">
+                                <ul class="big-menu-list">
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span id="first" class="big-menu-text">FEATURED</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Tour List</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Tour Carousel</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Tour Filter</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Destination With Tours</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Destination List</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Destinations Fullscreen Slider</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Fullscreen Sections</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Review Carousel</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Tour List</span>
-                                </a>
+                            <!--big 2-->
+                            <li class="big-menu-elements">
+                                <ul class="big-menu-list">
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span id="first" class="big-menu-text">PRESENTATION</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Team</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Blog List</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Shop List</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Testimonials</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Banner</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Clients</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Parallax Section</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Video Button</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Tour Carousel</span>
-                                </a>
+                            <!--big 3-->
+                            <li class="big-menu-elements">
+                                <ul class="big-menu-list">
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span id="first" class="big-menu-text">CLASSIC</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Accordions</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Tabs</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Buttons</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Googles Maps</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Contact Form</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Progess Bar</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Coutdown</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Counters</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Call To Action</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Tour Filter</span>
-                                </a>
+                            <!--big 4-->
+                            <li class="big-menu-elements">
+                                <ul class="big-menu-list">
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span id="first" class="big-menu-text">TYPOGRAPHY</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Headings</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Columns</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Section Title</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Blockquote</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Dropcaps</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Highlights</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Icon with text</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Sepators</span>
+                                        </a>
+                                    </li>
+                                    <li class="big-menu-item">
+                                        <a href="" class="big-menu-link">
+                                            <span class="big-menu-text">Custom Font</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Destination With Tours</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Destination List</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Destinations Fullscreen Slider</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Fullscreen Sections</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Review Carousel</span>
-                                </a>
-                            </li>
+
                         </ul>
-                    </li>
-                    <!--big 2-->
-                    <li class="big-menu-elements">
-                        <ul class="big-menu-list">
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span id="first" class="big-menu-text">PRESENTATION</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Team</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Blog List</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Shop List</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Testimonials</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Banner</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Clients</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Parallax Section</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Video Button</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--big 3-->
-                    <li class="big-menu-elements">
-                        <ul class="big-menu-list">
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span id="first" class="big-menu-text">CLASSIC</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Accordions</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Tabs</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Buttons</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Googles Maps</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Contact Form</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Progess Bar</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Coutdown</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Counters</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Call To Action</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--big 4-->
-                    <li class="big-menu-elements">
-                        <ul class="big-menu-list">
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span id="first" class="big-menu-text">TYPOGRAPHY</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Headings</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Columns</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Section Title</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Blockquote</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Dropcaps</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Highlights</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Icon with text</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Sepators</span>
-                                </a>
-                            </li>
-                            <li class="big-menu-item">
-                                <a href="" class="big-menu-link">
-                                    <span class="big-menu-text">Custom Font</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    
-                </ul>
-                </div>
-            </li>
+                    </div>
+                </li>
             </ul>
-            
+
 
             <!--More-->
             <ul class="header__right">
@@ -650,58 +658,58 @@
                 </li>
                 <li class="header__right-item">
                     <button class="header__right-link js-btn">
-                            <i class="fas fa-bars header__right-link-icon"></i>
+                        <i class="fas fa-bars header__right-link-icon"></i>
                     </button>
-                <!--map-->
-                <div class="map js-map">
-                    <div class="map__close js-close">
-                        <i class="ti-close map__close-icon"></i>
-                    </div>
-                    <div class="map__logo">
-                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo.png" alt="" class="map__logo-img">
-                    </div>
-                    <div class="map__title">
-                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/sidearea-img-2.png" alt="" class="map__title-img">
-                    </div>
-                    <div class="map__img">
-                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/sidearea-img.jpg" alt="">
-                    </div>
-                    <div class="map__text">Lorem ipsum dolor sit amet, consectetuer adipis cing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis theme natoque</div>
-                    <div class="map__search">
-                        <span class="map__search-text">Find Your Destination</span>
-                        <div class="map__search-main">
-                            <input class="input__search" type="text" placeholder="Search...">
-                            <button class="search__btn">
-                                <i class="ti-search search__icon"></i>
-                            </button>
+                    <!--map-->
+                    <div class="map js-map">
+                        <div class="map__close js-close">
+                            <i class="ti-close map__close-icon"></i>
+                        </div>
+                        <div class="map__logo">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo.png" alt="" class="map__logo-img">
+                        </div>
+                        <div class="map__title">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/sidearea-img-2.png" alt="" class="map__title-img">
+                        </div>
+                        <div class="map__img">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/sidearea-img.jpg" alt="">
+                        </div>
+                        <div class="map__text">Lorem ipsum dolor sit amet, consectetuer adipis cing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis theme natoque</div>
+                        <div class="map__search">
+                            <span class="map__search-text">Find Your Destination</span>
+                            <div class="map__search-main">
+                                <input class="input__search" type="text" placeholder="Search...">
+                                <button class="search__btn">
+                                    <i class="ti-search search__icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="map__footer">
+                            <span class="map__footer-text">Follow Me</span>
+                            <ul class="map__footer-list">
+                                <li class="map__footer-item">
+                                    <a href="" class="map__footer-link">
+                                        <i class="ti-twitter-alt map__footer-link-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="map__footer-item">
+                                    <a href="" class="map__footer-link">
+                                        <i class="ti-pinterest map__footer-link-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="map__footer-item">
+                                    <a href="" class="map__footer-link">
+                                        <i class="ti-facebook map__footer-link-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="map__footer-item">
+                                    <a href="" class="map__footer-link">
+                                        <i class="ti-instagram map__footer-link-icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="map__footer">
-                        <span class="map__footer-text">Follow Me</span>
-                        <ul class="map__footer-list">
-                            <li class="map__footer-item">
-                                <a href="" class="map__footer-link">
-                                    <i class="ti-twitter-alt map__footer-link-icon"></i>
-                                </a>
-                            </li>
-                            <li class="map__footer-item">
-                                <a href="" class="map__footer-link">
-                                    <i class="ti-pinterest map__footer-link-icon"></i>
-                                </a>
-                            </li>
-                            <li class="map__footer-item">
-                                <a href="" class="map__footer-link">
-                                    <i class="ti-facebook map__footer-link-icon"></i>
-                                </a>
-                            </li>
-                            <li class="map__footer-item">
-                                <a href="" class="map__footer-link">
-                                    <i class="ti-instagram map__footer-link-icon"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>              
                 </li>
             </ul>
         </div>
@@ -714,7 +722,7 @@
                 <input class="search__main-input" type="text" placeholder="Search...">
                 <button class="search__main-btn">FIND NOW</button>
             </div>
-            
+
         </div>
         <div class="search__close js-searchClose">
             <i class="ti-close search__close-icon"></i>
@@ -741,7 +749,7 @@
     </div>
     <!--tour slider-->
     <div class="tour__slider">
-        <div class="tour__slider-item">      
+        <div class="tour__slider-item">
             <a href="" class="tour__slider-link">
                 <img src="./assets/img/tour/slider1.jpg" alt="" class="tour__slider-img">
             </a>
@@ -773,7 +781,7 @@
             </div>
         </div>
 
-        
+
         <div class="tour__slider-item">
             <a href="" class="tour__slider-link">
                 <img src="./assets/img/tour/slider2.jpg" alt="" class="tour__slider-img">
@@ -867,7 +875,7 @@
             </div>
         </div>
 
-    
+
         <div class="tour__slider-item">
             <a href="" class="tour__slider-link">
                 <img src="./assets/img/tour/slider5.jpg" alt="" class="tour__slider-img">
@@ -934,7 +942,507 @@
     </div>
 
 
+    <div class="container">
+        <!--sport-->
+        <div class="container__sports grid">
+            <div class="sports__header">
+                <span class="sports__header-text-top">Try now</span>
+                <span class="sports__header-text-bot">Winter Sports</span>
+            </div>
+            <div class="sports__body">
 
+                <a href="https://www.youtube.com/watch?v=xd39Ho1kfqc" class="video">
+                    <img src="./assets/img/video.jpg" alt="" class="video__img">
+                    <span class="btn-play">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/play-button.png" alt="">
+                    </span>
+                </a>
+
+                <div class="sports__body-title">
+                    <p class="sports__body-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis
+                        dis sit amet, consectetuer adipiscing elit Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit ame</p>
+                </div>
+                <button class="sports__body-btn">VIEW MORE</button>
+            </div>
+        </div>
+
+        <!--review-->
+        <div class="container__review">
+            <img class="review-img" src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/skiing-parallax-1.jpg" alt="">
+            <div class="review__title grid">
+                <span class="review__title-text-top">Top Reviews</span>
+                <span class="review__title-text-bot">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum</span>
+            </div>
+            <div class="review__slider">
+                <!-- 1 -->
+                <div class="review__slider-item">
+                    <div class="review__slider-item-body">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-7.png" alt="" class="review__slider-img">
+                        <div class="review__slider-main">
+                            <a class="review__slider-location">Holland Canals</a>
+                            <span class="review__slider-rate">
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                            </span>
+                            <span class="review__slider-content">
+                                Sa etor aviues lmpedlt tes, vof ef nihc agem qupaios. Ai apvy </span>
+                            <span class="review__slider-name">
+                                Ema Cooper </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="review__slider-item">
+                    <div class="review__slider-item-body">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-4.png" alt="" class="review__slider-img">
+                        <div class="review__slider-main">
+                            <a class="review__slider-location">Taipei</a>
+                            <span class="review__slider-rate">
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                            </span>
+                            <span class="review__slider-content">
+                                Pe utor aviuas lwpadit tas, vut et nihc egam yubulas. Si euvy </span>
+                            <span class="review__slider-name">
+                                Susan Day </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="review__slider-item">
+                    <div class="review__slider-item-body">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-3.png" alt="" class="review__slider-img">
+                        <div class="review__slider-main">
+                            <a class="review__slider-location">Kaohsiung</a>
+                            <span class="review__slider-rate">
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                            </span>
+                            <span class="review__slider-content">
+                                Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy </span>
+                            <span class="review__slider-name">
+                                Roger Brooks </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="review__slider-item">
+                    <div class="review__slider-item-body">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-2.png" alt="" class="review__slider-img">
+                        <div class="review__slider-main">
+                            <a class="review__slider-location">Barcelona</a>
+                            <span class="review__slider-rate">
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                            </span>
+                            <span class="review__slider-content">
+                                Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy </span>
+                            <span class="review__slider-name">
+                                James Fisher </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="review__slider-item">
+                    <div class="review__slider-item-body">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-6.png" alt="" class="review__slider-img">
+                        <div class="review__slider-main">
+                            <a class="review__slider-location">Madrid</a>
+                            <span class="review__slider-rate">
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                            </span>
+                            <span class="review__slider-content">
+                                Pe ator eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy </span>
+                            <span class="review__slider-name">
+                                Sam Smith </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="review__slider-item">
+                    <div class="review__slider-item-body">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-5.png" alt="" class="review__slider-img">
+                        <div class="review__slider-main">
+                            <a class="review__slider-location">Tarragona</a>
+                            <span class="review__slider-rate">
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                            </span>
+                            <span class="review__slider-content">
+                                Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy </span>
+                            <span class="review__slider-name">
+                                Carl Moore </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 7 -->
+                <div class="review__slider-item">
+                    <div class="review__slider-item-body">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-1.png" alt="" class="review__slider-img">
+                        <div class="review__slider-main">
+                            <a class="review__slider-location">Beautiful Holland</a>
+                            <span class="review__slider-rate">
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                            </span>
+                            <span class="review__slider-content">
+                                Fo etor uvluoc iwpodit res, vet of nihc egam yubulas. Al uavq </span>
+                            <span class="review__slider-name">
+                                Carol Silva </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 8 -->
+                <div class="review__slider-item">
+                    <div class="review__slider-item-body">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-5.png" alt="" class="review__slider-img">
+                        <div class="review__slider-main">
+                            <a class="review__slider-location">Temple Tour</a>
+                            <span class="review__slider-rate">
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                                <i class="fas fa-star review__slider-rate-icon"></i>
+                            </span>
+                            <span class="review__slider-content">
+                                Te utar uvlues iwqodit tas, vut et nihc egam yubulas. Ei euvy </span>
+                            <span class="review__slider-name">
+                                Carl Moore </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- describe -->
+        <div class="container__describe">
+            <div class="describe__header grid">
+                <span class="describe__text-header">Enjoy Your</span>
+                <span class="describe__text-midle">Winter Holiday</span>
+                <span class="describe__text-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</span>
+            </div>
+
+            <div class="describe__midle grid">
+                <ul class="describe__type">
+                    <!-- 1 -->
+                    <li class="describe__item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-1.png" alt="" class="describe__img">
+                        <div class="describe__item-main">
+                            <span class="describe__item-title">Restaurants</span>
+                            <span class="describe__item-text">Aenean commodo ligula eget dolor. Lorem ipsum</span>
+                        </div>
+                    </li>
+                    <!-- 2 -->
+                    <li class="describe__item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-2-73x75.png" alt="" class="describe__img">
+                        <div class="describe__item-main">
+                            <span class="describe__item-title">Sightseeing</span>
+                            <span class="describe__item-text">Aenean commodo ligula eget dolor. Lorem ipsum</span>
+                        </div>
+                    </li>
+                    <!-- 3 -->
+                    <li class="describe__item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-3-73x75.png" alt="" class="describe__img">
+                        <div class="describe__item-main">
+                            <span class="describe__item-title">Shops & Boutiques</span>
+                            <span class="describe__item-text">Aenean commodo ligula eget dolor. Lorem ipsum</span>
+                        </div>
+                    </li>
+                    <!-- 4 -->
+                    <li class="describe__item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-custom-icon-img-4.png" alt="" class="describe__img">
+                        <div class="describe__item-main">
+                            <span class="describe__item-title">Where to Stay</span>
+                            <span class="describe__item-text">Aenean commodo ligula eget dolor. Lorem ipsum</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="describe__bottom">
+                <div class="describe__slider">
+                    <!-- 1 -->
+                    <div class="describe__slider-item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-6-1-212x300.jpg" alt="" class="describe__slider-img">
+                        <div class="describe__slider-info">
+                            <span class="describe__slider-name">Joe Avery</span>
+                            <span class="describe__slider-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem</span>
+                            <span class="describe__slider-social">
+                                <i class="describe__slider-icon ti-twitter-alt"></i>
+                                <i class="describe__slider-icon ti-pinterest"></i>
+                                <i class="describe__slider-icon ti-facebook"></i>
+                                <i class="describe__slider-icon ti-instagram"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- 2 -->
+                    <div class="describe__slider-item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-7-1-212x300.jpg" alt="" class="describe__slider-img">
+                        <div class="describe__slider-info">
+                            <span class="describe__slider-name">Bella Larson</span>
+                            <span class="describe__slider-comment">Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</span>
+                            <span class="describe__slider-social">
+                                <i class="describe__slider-icon ti-twitter-alt"></i>
+                                <i class="describe__slider-icon ti-pinterest"></i>
+                                <i class="describe__slider-icon ti-facebook"></i>
+                                <i class="describe__slider-icon ti-instagram"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- 3 -->
+                    <div class="describe__slider-item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-8-1-212x300.jpg" alt="" class="describe__slider-img">
+                        <div class="describe__slider-info">
+                            <span class="describe__slider-name">Jack Burton</span>
+                            <span class="describe__slider-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem</span>
+                            <span class="describe__slider-social">
+                                <i class="describe__slider-icon ti-twitter-alt"></i>
+                                <i class="describe__slider-icon ti-pinterest"></i>
+                                <i class="describe__slider-icon ti-facebook"></i>
+                                <i class="describe__slider-icon ti-instagram"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- 4 -->
+                    <div class="describe__slider-item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-9-212x300.jpg" alt="" class="describe__slider-img">
+                        <div class="describe__slider-info">
+                            <span class="describe__slider-name">Grace West</span>
+                            <span class="describe__slider-comment">Peq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</span>
+                            <span class="describe__slider-social">
+                                <i class="describe__slider-icon ti-twitter-alt"></i>
+                                <i class="describe__slider-icon ti-pinterest"></i>
+                                <i class="describe__slider-icon ti-facebook"></i>
+                                <i class="describe__slider-icon ti-instagram"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- 5 -->
+                    <div class="describe__slider-item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-6-1-212x300.jpg" alt="" class="describe__slider-img">
+                        <div class="describe__slider-info">
+                            <span class="describe__slider-name">Joe Avery</span>
+                            <span class="describe__slider-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem</span>
+                            <span class="describe__slider-social">
+                                <i class="describe__slider-icon ti-twitter-alt"></i>
+                                <i class="describe__slider-icon ti-pinterest"></i>
+                                <i class="describe__slider-icon ti-facebook"></i>
+                                <i class="describe__slider-icon ti-instagram"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- 6 -->
+                    <div class="describe__slider-item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-7-1-212x300.jpg" alt="" class="describe__slider-img">
+                        <div class="describe__slider-info">
+                            <span class="describe__slider-name">Bella Larson</span>
+                            <span class="describe__slider-comment">Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</span>
+                            <span class="describe__slider-social">
+                                <i class="describe__slider-icon ti-twitter-alt"></i>
+                                <i class="describe__slider-icon ti-pinterest"></i>
+                                <i class="describe__slider-icon ti-facebook"></i>
+                                <i class="describe__slider-icon ti-instagram"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- 7 -->
+                    <div class="describe__slider-item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-8-1-212x300.jpg" alt="" class="describe__slider-img">
+                        <div class="describe__slider-info">
+                            <span class="describe__slider-name">Jack Burton</span>
+                            <span class="describe__slider-comment">Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem</span>
+                            <span class="describe__slider-social">
+                                <i class="describe__slider-icon ti-twitter-alt"></i>
+                                <i class="describe__slider-icon ti-pinterest"></i>
+                                <i class="describe__slider-icon ti-facebook"></i>
+                                <i class="describe__slider-icon ti-instagram"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- 8 -->
+                    <div class="describe__slider-item">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-9-212x300.jpg" alt="" class="describe__slider-img">
+                        <div class="describe__slider-info">
+                            <span class="describe__slider-name">Grace West</span>
+                            <span class="describe__slider-comment">Peq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</span>
+                            <span class="describe__slider-social">
+                                <i class="describe__slider-icon ti-twitter-alt"></i>
+                                <i class="describe__slider-icon ti-pinterest"></i>
+                                <i class="describe__slider-icon ti-facebook"></i>
+                                <i class="describe__slider-icon ti-instagram"></i>
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="describe__quantity">
+                    <ul class="describe__quantity-type grid">
+                        <!-- 1 -->
+                        <li class="describe__quantity-item">
+                            <span class="describe__quantity-number">452</span>
+                            <span class="describe__quantity-text">Tourists</span>
+                        </li>
+                        <!-- 2 -->
+                        <li class="describe__quantity-item">
+                            <span class="describe__quantity-number">120</span>
+                            <span class="describe__quantity-text">Years</span>
+                        </li>
+                        <!-- 3 -->
+                        <li class="describe__quantity-item">
+                            <span class="describe__quantity-number">283</span>
+                            <span class="describe__quantity-text">Cottages</span>
+                        </li>
+                        <!-- 4 -->
+                        <li class="describe__quantity-item">
+                            <span class="describe__quantity-number">197</span>
+                            <span class="describe__quantity-text">Restaurants</span>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- resort -->
+        <div class="container__resort grid">
+            <div class="resort__header">
+                <span class="resort__text-top">Choose Your</span>
+                <span class="resort__text-mid">Winter Resort</span>
+                <span class="resort__text-bot">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</span>
+            </div>
+            <div class="resort__main">
+                <div class="resort__name grid__row">
+                    <div class="resort__item col c-4">
+                        <a class="resort__item-link">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-8-1-150x150.jpg" alt="" class="report__item-img">
+                            <span class="resort__item-name">Slovenia</span>
+                        </a>
+                    </div>
+                    <div class="resort__item col c-4">
+                        <a class="resort__item-link">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-9-1-150x150.jpg" alt="" class="report__item-img">
+                            <span class="resort__item-name">France</span>
+                        </a>
+                        <span class="resort__item-best">
+                            <i class="fas fa-star resort__item-best-icon"></i>
+                        </span>
+
+                    </div>
+                    <div class="resort__item col c-4">
+                        <a class="resort__item-link">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/destinations-featured-img-10-1-150x150.jpg" alt="" class="report__item-img">
+                            <span class="resort__item-name">Switzerland</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer__body grid">
+            <div class="footer__main grid__row">
+                <div class="footer__item col c-3">
+                    <span class="footer__title">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-footer.png" alt="" class="footer__title-img">
+                    </span>
+                    <span class="footer__title-text">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</span>
+                    <div class="footer__contact">
+                        <a class="footer__contact-item">
+                            <i class="ti-email footer__contact-icon"></i>
+                            <div class="footer__contact-text">setsail@qode.com</div>
+                        </a>
+                        <a class="footer__contact-item">
+                            <i class="fas fa-phone-alt footer__contact-icon"></i>
+                            <div class="footer__contact-text">1562 867 5309</div>
+                        </a>
+                        <a class="footer__contact-item">
+                            <i class="ti-location-pin footer__contact-icon"></i>
+                            <div class="footer__contact-text">Broadway & Morris St, New York</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__item col c-3">
+                    <div class="footer__item-name">Our Recent Posts</div>
+                    <div class="footer__event">
+                        <a href="" class="footer__event-name">Visit Thailand, Bali And China</a>
+                        <a href="" class="footer__event-time">September 7, 2016</a>
+                    </div>
+                    <div class="footer__event">
+                        <a href="" class="footer__event-name">The Sound Of Our Jungle</a>
+                        <a href="" class="footer__event-time">September 7, 2016</a>
+                    </div>
+                    <div class="footer__event">
+                        <a href="" class="footer__event-name">New Year, New Resolutions!</a>
+                        <a href="" class="footer__event-time">September 7, 2016</a>
+                    </div>
+                </div>
+                <div class="footer__item col c-3">
+                    <div class="footer__item-name">Subscribe to our Newsletter</div>
+                    <div class="footer__item-text">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</div>
+                    <div class="footer__item-input">
+                        <div class="input__item-input-main">
+                            <i class="fas fa-user input__icon"></i>
+                            <input class="input__info" placeholder="Name" type="text">
+                        </div>
+                        <div class="input__item-input-main">
+                            <i class="ti-email input__icon"></i>
+                            <input class="input__info" placeholder="Email" type="text">
+                        </div>
+                        
+                        <button class="input__btn">SUBSCRIBE</button>
+                    </div>
+                </div>
+                <div class="footer__item col c-3">
+                    <div class="footer__item-name">Our Instagram</div>
+                    <div class="footer__item-text">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</div>
+                </div>
+            </div>
+            <div class="footer__policy">
+                <div class="footer__policy-main">
+                    <span class="footer__policy-text">Powered by @ </span>
+                    <a href="" class="footer__policy-link">Qode Interactive 2018</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--click-->
     <script>
         const openBtn = document.querySelector('.js-btn')
         const overlay = document.querySelector('.js-overlay')
@@ -946,53 +1454,45 @@
         const closeSearch = document.querySelector('.js-searchClose')
         const search = document.querySelector('.js-search')
 
-        function Show(){
+        function Show() {
             overlay.classList.add('open')
             map.classList.add('open')
         }
-        function Close(){
+        function Close() {
             overlay.classList.remove('open')
             map.classList.remove('open')
         }
 
-        function SearchOpen(){
+        function SearchOpen() {
             overlayPrimary.classList.add('open')
         }
 
-        function SearchClose(){
+        function SearchClose() {
             overlayPrimary.classList.remove('open')
         }
 
-        openBtn.addEventListener('click',Show)
-        overlay.addEventListener('click',Close)
-        closeBtn.addEventListener('click',Close)
-        map.addEventListener('click', function(event){
+        openBtn.addEventListener('click', Show)
+        overlay.addEventListener('click', Close)
+        closeBtn.addEventListener('click', Close)
+        map.addEventListener('click', function (event) {
             event.stopPropagation()
         })
 
-        openSearch.addEventListener('click',SearchOpen)
-        overlayPrimary.addEventListener('click',SearchClose)
-        closeSearch.addEventListener('click',SearchClose)
-        search.addEventListener('click',function(event){
+        openSearch.addEventListener('click', SearchOpen)
+        overlayPrimary.addEventListener('click', SearchClose)
+        closeSearch.addEventListener('click', SearchClose)
+        search.addEventListener('click', function (event) {
             event.stopPropagation()
         })
 
-        
+
     </script>
-
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
+    <!--slide-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script src="./assets/slider.js"></script>
 </body>
+
 </html>

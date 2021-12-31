@@ -1,0 +1,81 @@
+.container__sports{
+    height: 100%;
+}
+
+.sports__header{
+    height: 272px;
+    padding: 100px 0 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sports__header-text-top{
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 3.3rem;
+    line-height: 60px;
+}
+
+.sports__header-text-bot{
+    color: var(--TEXT-color);
+    font-size: 6.5rem;
+    line-height: 72px;
+    font-weight: 800;
+}
+
+.sports__body{
+    height: 604px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 874px;
+    box-shadow: 5px 8px 13.92px 2.08px rgb(0 0 0 / 5%);
+}
+
+.video__img{
+    height: 412px;
+    width: 874px;
+}
+
+.btn-play{
+    position: absolute;
+    z-index: 1;
+}
+
+.sports__body-title{
+    width: 874px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sports__body-text{
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.sports__body-btn{
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.13rem;
+    width: 220px;
+    height: 60px;
+    border: 1px solid ;
+    cursor: pointer;
+}
+
+.sports__body-btn:hover{
+    background-color: #3abdc1;
+}

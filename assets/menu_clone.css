@@ -5,9 +5,13 @@
     list-style: none;
     top: 100%;
     left: 0;
+    height: 0;
     padding: 30px 0;
     z-index: 1;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transform-origin: top;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity ease-out 0.35s, height ease-out 0.2s;
     box-shadow: 0 3px 13px 0 rgb(0 0 0 / 3%);
 }
 
@@ -16,11 +20,6 @@
     height: 36px;
     display: flex;
     position: relative;
-}
-
-.menu__clone-item:hover .menu__chip{
-    opacity: 1;
-    transition: opacity 0.4s linear;
 }
 
 .menu__clone-link{
@@ -91,6 +90,13 @@
     padding: 30px 0;
     opacity: 0;
     box-shadow: 0 3px 13px 0 rgb(0 0 0 / 3%);
+    visibility: hidden;
+    transition: opacity ease-in 0.3s;
+}
+
+.menu__clone-item:hover .menu__chip{
+    opacity: 1;
+    visibility: visible;
 }
 
 .menu__chip-item{

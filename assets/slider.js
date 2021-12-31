@@ -24,3 +24,26 @@ $(document).ready(function(){
         
     });
   });
+
+  $(document).ready(function(){
+    $('.review__slider').slick({
+      infinite: true,
+      dots: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 3000
+    });
+  });
+
+  $(document).ready(function(){
+    $('.describe__slider').slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 3000
+    });
+  });

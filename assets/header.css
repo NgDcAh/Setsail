@@ -6,8 +6,9 @@
     align-items: center;
     justify-content: space-between;
     top: 0;
-    z-index: 1;
+    z-index: 888;
     background-color: var(--white-color);
+    position: fixed;
 }
 /*logo*/
 .header__logo{
@@ -38,8 +39,32 @@
 }
 
 .header__navbar-item:hover .menu__clone{
-    clip-path: polygon(0 0, 200% 0, 200% 400%, 0 400%);
-    transition: clip-path 0.6s ease-out;
+    visibility: visible;
+    opacity: 1;
+}
+
+.header__navbar-item:hover #menu-home{
+    height: 348px;
+}
+
+.header__navbar-item:hover #menu-pages{
+    height: 276px;
+}
+
+.header__navbar-item:hover #menu-desinations{
+    height: 168px;
+}
+
+.header__navbar-item:hover #menu-tours{
+    height: 204px;
+}
+
+.header__navbar-item:hover #menu-blog{
+    height: 168px;
+}
+
+.header__navbar-item:hover #menu-shop{
+    height: 204px;
 }
 
 .header__navbar-item-link{
