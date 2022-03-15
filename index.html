@@ -35,11 +35,12 @@
             </a>
 
             <!--menu-->
-            <ul class="header__navbar">
+            <ul class="js-menuTablet header__navbar">
 
                 <!--home-->
                 <li class="header__navbar-item">
                     <a href="" class="header__navbar-item-link"><span id="home" class="header__navbar-text">Home</span></a>
+                    <i class="ti-angle-right tablet__menu-icon-right"></i>
 
                     <ul id="menu-home" class="menu__clone">
                         <li class="menu__clone-item">
@@ -106,6 +107,7 @@
                     <a href="" class="header__navbar-item-link">
                         <span class="header__navbar-text">Pages</span>
                     </a>
+                    <i class="ti-angle-right tablet__menu-icon-right"></i>
 
                     <ul id="menu-pages" class="menu__clone">
                         <li class="menu__clone-item">
@@ -157,7 +159,7 @@
                 <!--Destinations-->
                 <li class="header__navbar-item">
                     <a href="" class="header__navbar-item-link"><span class="header__navbar-text">Destinations</span></a>
-
+                    <i class="ti-angle-right tablet__menu-icon-right"></i>
                     <ul id="menu-desinations" class="menu__clone">
                         <li class="menu__clone-item">
                             <a href="" class="menu__clone-link">
@@ -186,7 +188,7 @@
                 <!--Tours-->
                 <li class="header__navbar-item">
                     <a href="" class="header__navbar-item-link"><span class="header__navbar-text">Tours</span></a>
-
+                    <i class="ti-angle-right tablet__menu-icon-right"></i>
                     <ul id="menu-tours" class="menu__clone">
                         <li class="menu__clone-item">
                             <a href="" class="menu__clone-link">
@@ -222,7 +224,7 @@
                 <!--blog-->
                 <li class="header__navbar-item">
                     <a href="" class="header__navbar-item-link"><span class="header__navbar-text">Blog</span></a>
-
+                    <i class="ti-angle-right tablet__menu-icon-right"></i>
                     <ul id="menu-blog" class="menu__clone">
                         <li class="menu__clone-item">
                             <a href="" class="menu__clone-link">
@@ -329,7 +331,7 @@
                 <!--shop-->
                 <li class="header__navbar-item">
                     <a href="" class="header__navbar-item-link"><span class="header__navbar-text">Shop</span></a>
-
+                    <i class="ti-angle-right tablet__menu-icon-right"></i>
                     <ul id="menu-shop" class="menu__clone">
                         <li class="menu__clone-item">
                             <a href="" class="menu__clone-link">
@@ -417,7 +419,7 @@
                     <a href="" class="header__navbar-item-link">
                         <span class="header__navbar-text">Elements</span>
                     </a>
-
+                    <i class="ti-angle-right tablet__menu-icon-right"></i>
                     <!--big menu-->
                     <div class="big">
                         <ul class="big-menu ">
@@ -712,6 +714,17 @@
                     </div>
                 </li>
             </ul>
+
+            <!--Tablet-->
+            <button class="js-OpenMenuTablet tablet__menu">
+                <i class="tablet__menu-icon ti-menu"></i>
+            </button>
+            <div class="tablet__logo">
+                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-mobile-img.png" alt="" class="tablet__logo-img">
+            </div>
+            <div class="tablet__user-login">
+                <i class="tablet__user-login-icon ti-user"></i>
+            </div>
         </div>
     </div>
     <!--overlay-->
@@ -1306,25 +1319,25 @@
 
                 </div>
 
-                <div class="describe__quantity">
+                <div class="describe__quantity ">
                     <ul class="describe__quantity-type grid">
                         <!-- 1 -->
-                        <li class="describe__quantity-item">
+                        <li class="col m-6 describe__quantity-item">
                             <span class="describe__quantity-number">452</span>
                             <span class="describe__quantity-text">Tourists</span>
                         </li>
                         <!-- 2 -->
-                        <li class="describe__quantity-item">
+                        <li class="col m-6 describe__quantity-item">
                             <span class="describe__quantity-number">120</span>
                             <span class="describe__quantity-text">Years</span>
                         </li>
                         <!-- 3 -->
-                        <li class="describe__quantity-item">
+                        <li class="col m-6 describe__quantity-item">
                             <span class="describe__quantity-number">283</span>
                             <span class="describe__quantity-text">Cottages</span>
                         </li>
                         <!-- 4 -->
-                        <li class="describe__quantity-item">
+                        <li class="col m-6 describe__quantity-item">
                             <span class="describe__quantity-number">197</span>
                             <span class="describe__quantity-text">Restaurants</span>
                         </li>
@@ -1343,13 +1356,13 @@
             </div>
             <div class="resort__main">
                 <div class="resort__name grid__row">
-                    <div class="resort__item col c-4">
+                    <div class="resort__item col l-12 c-4">
                         <a class="resort__item-link">
                             <img src="./assets/img/resorts/resort_1.jpg" alt="" class="report__item-img">
                             <span class="resort__item-name">Slovenia</span>
                         </a>
                     </div>
-                    <div class="resort__item col c-4">
+                    <div class="resort__item col l-12 c-4">
                         <a class="resort__item-link">
                             <img src="./assets/img/resorts/resort_2.jpg" alt="" class="report__item-img">
                             <span class="resort__item-name">France</span>
@@ -1359,7 +1372,7 @@
                         </span>
 
                     </div>
-                    <div class="resort__item col c-4">
+                    <div class="resort__item col l-12 c-4">
                         <a class="resort__item-link">
                             <img src="./assets/img/resorts/resort_3.jpg" alt="" class="report__item-img">
                             <span class="resort__item-name">Switzerland</span>
@@ -1374,7 +1387,7 @@
     <div class="footer">
         <div class="footer__body grid">
             <div class="footer__main grid__row">
-                <div class="footer__item col c-3">
+                <div class="footer__item col c-3 m-6">
                     <span class="footer__title">
                         <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-footer.png" alt="" class="footer__title-img">
                     </span>
@@ -1394,7 +1407,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="footer__item col c-3">
+                <div class="footer__item col c-3 m-6">
                     <div class="footer__item-name">Our Recent Posts</div>
                     <div class="footer__event">
                         <a href="" class="footer__event-name">Visit Thailand, Bali And China</a>
@@ -1448,6 +1461,9 @@
         const overlay = document.querySelector('.js-overlay')
         const closeBtn = document.querySelector('.js-close')
         const map = document.querySelector('.js-map')
+        const openMenuTablet = document.querySelector('.js-OpenMenuTablet')
+        const menuTablet = document.querySelector('.js-menuTablet')
+        var heightMenu = menuTablet.clientHeight
 
         const openSearch = document.querySelector('.js-search-btn')
         const overlayPrimary = document.querySelector('.js-overlayPrimary')
@@ -1463,6 +1479,16 @@
             map.classList.remove('open')
         }
 
+        function ShowMenuTablet(){
+            overlay.classList.add('open')
+            menuTablet.classList.add('open')
+        }
+
+        function CloseMenuTablet(){
+            menuTablet.classList.remove('open')
+            overlay.classList.remove('open')
+        }
+
         function SearchOpen() {
             overlayPrimary.classList.add('open')
         }
@@ -1473,7 +1499,17 @@
 
         openBtn.addEventListener('click', Show)
         overlay.addEventListener('click', Close)
+        overlay.addEventListener('click', CloseMenuTablet)
         closeBtn.addEventListener('click', Close)
+        openMenuTablet.onclick = function(){
+            var isClosed = menuTablet.clientHeight === heightMenu
+            if (isClosed) {
+                ShowMenuTablet()
+            }
+            else{
+                CloseMenuTablet()
+            }
+        }
         map.addEventListener('click', function (event) {
             event.stopPropagation()
         })

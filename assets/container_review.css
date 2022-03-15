@@ -156,3 +156,38 @@
 #slick-slide-control27{
     display: none;
 }
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .review-img{
+        height: 828px;
+    }
+    .review__slider{
+        height: 430px;
+    }
+    .review__slider-item{
+        height: 350px;
+        margin: 0 15px;
+    }
+    .review__slider-item-body{
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 20px;
+        align-items: center;
+    }
+    .review__slider-main{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .review__slider .slick-dots{
+        transform: translate(-50%, 400px);
+    }
+}
+
+@media only screen and (max-width: 46.25em){
+    .review__title-text-top{
+        width: 100%;
+    }
+
+    .review__title-text-bot{
+        width: 100%;
+    }
+}

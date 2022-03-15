@@ -157,4 +157,13 @@
     color: var(--primary-color);
 }
 
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .footer__item:nth-child(3){
+        display: none;
+    }
+    .footer__item:nth-child(4){
+        display: none;
+    }
+}
+
 

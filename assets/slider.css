@@ -274,4 +274,65 @@
 .tour-cmt{
     margin-left: 10px;
 }
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
 
+    .header__slider{
+        height: 630px;
+        margin: 69px 0 0;
+    }
+    .header__slider-item{
+        width: 100%;
+        height: 630px;
+    }
+    .header__slider .slick-arrow{
+        display: none !important;
+    }
+    .header__slider-text{
+        padding: 170px 0;
+    }
+    .header__slider-text-mid{
+        text-align: center;
+        font-size: 8.2rem;
+    }
+}
+
+@media only screen and (max-width: 46.25em){
+    .header__slider{
+        height: 450px;
+        margin: 69px 0 0;
+    }
+
+    .header__slider-item{
+        width: 100%;
+        height: 450px;
+    }
+
+    .header__slider .slick-arrow{
+        display: none !important;
+    }
+
+    .header__slider-text-top{
+        width: 100%;
+        font-size: 3.4rem;
+        text-align: center;
+    }
+    .header__slider-text-mid{
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+    }
+    .header__slider-text-bot{
+        width: 100%;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    /* .tour__slider > .slick-list > .slick-track{
+       width: 100% !important;
+       transform: none !important;
+    } */
+
+    .tour__slider-item{
+        width: 100%;
+    }
+}
