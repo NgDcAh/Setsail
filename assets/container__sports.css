@@ -26,7 +26,7 @@
 }
 
 .sports__body{
-    height: 604px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +60,7 @@
 
 .sports__body-text{
     color: var(--text-color);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .sports__body-btn{
@@ -117,5 +117,26 @@
 
     .container__sports{
         width: 100%;
+    }
+
+    .sports__header-text-top{
+        width: 100%;
+        text-align: center;
+    }
+
+    .sports__header-text-bot{
+        width: 100%;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    .sports__body{
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .video__img{
+        width: 100%;
+        height: 100%;
     }
 }

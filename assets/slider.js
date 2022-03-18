@@ -35,7 +35,8 @@ $(document).ready(function(){
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              infinite: true
+              infinite: true,
+              dots: true
             }
           }
         ]
@@ -57,7 +58,8 @@ $(document).ready(function(){
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            infinite: true
+            infinite: true,
+            dots: false
           }
         }
       ]

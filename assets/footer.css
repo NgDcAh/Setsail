@@ -157,6 +157,10 @@
     color: var(--primary-color);
 }
 
+.footer__ig{
+    display: none;
+}
+
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
     .footer__item:nth-child(3){
         display: none;
@@ -166,4 +170,37 @@
     }
 }
 
+@media only screen and (max-width: 46.25em){
+    .footer{
+        padding: 106px 40px 0;
+    }
+    .footer__item{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
 
+    .footer__item-text{
+        margin: 0 0 26px;
+    }
+
+    .footer__ig{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer__ig-item{
+        padding: 4px 3px;
+    }
+
+    .l-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .footer__ig-img{
+        width: 100%;
+    }
+}

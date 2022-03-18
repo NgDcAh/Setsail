@@ -66,3 +66,9 @@
     color: var(--primary-color);
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 63.9375em){
+    .big{
+        display: none;
+    }
+}
